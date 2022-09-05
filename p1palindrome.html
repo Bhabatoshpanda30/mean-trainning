@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+function pal()
+{
+s= document.getElementById("f1").value;
+var temp=s.trim();
+s1=temp.spilt('').reverse().join('');
+if(s==s1)
+alert("palindrome");
+else
+alert("Not palindrome");
+}
+</script>
+<body>
+enter the number: <input id="f1"><br>
+<button onclick="pal()">CHECK</button>
+</body>
+</html>

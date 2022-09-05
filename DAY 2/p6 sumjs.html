@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+.butt button{
+background-color:aqua;
+}
+button:hover{
+cursor:pointer;
+color:white;
+background-color:black;
+transition:0.75s;
+}
+</style>
+<script>
+function add(){
+x=Number(document.getElemetbyId("f1").value;
+y=Number(document.getElemetbyId("f2").value;
+z=x+y;
+document.getElementId("f3").value=z;
+}
+</script>
+<body bgcolor="pink">
+Enter the first element:<input id="f1"><br><br>
+Enter the second element:<input id="f2"><br><br>
+sum:<input id="f3"><br><br>
+<div class="butt"><button onclick="add()">ADD</button></div>
+</body>
